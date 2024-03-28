@@ -1,5 +1,12 @@
 import { useState } from 'react'
 
+const defaultFormFields = {
+  displayName: '',
+  email: '',
+  password: '',
+  confirmPassword: ' ',
+}
+
 const SignUpForm = () => {
   return (
     <div>
